@@ -1,11 +1,11 @@
 import React from 'react'
 
+import HelloWorld from './components/HelloWorld'
+
 function App() {
     return (
         <div>
-            <input type="checkbox" /> <p>Eat</p>
-            <input type="checkbox" /> <p>Sleep</p>
-            <input type="checkbox" /> <p>Work</p>
+            <HelloWorld />
         </div>
     )
 }
